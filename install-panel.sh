@@ -317,7 +317,7 @@ check_os_comp() {
     PHP_SOCKET="/run/php/php8.0-fpm.sock"
     [ "$OS_VER_MAJOR" == "18" ] && SUPPORTED=true
     [ "$OS_VER_MAJOR" == "20" ] && SUPPORTED=true
-    [ "$OS_VER_MAJOR" == "21" ] && SUPPORTED=true
+    [ "$OS_VER_MAJOR" == "21.04" ] && SUPPORTED=true
     ;;
   debian)
     PHP_SOCKET="/run/php/php8.0-fpm.sock"
