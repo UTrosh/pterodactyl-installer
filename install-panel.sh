@@ -72,7 +72,7 @@ CONFIGURE_LETSENCRYPT=false
 
 # download URLs
 PANEL_DL_URL="https://github.com/pterodactyl/panel/releases/latest/download/panel.tar.gz"
-GITHUB_BASE_URL="https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/$GITHUB_SOURCE"
+GITHUB_BASE_URL="https://raw.githubusercontent.com/UTrosh/pterodactyl-installer/$GITHUB_SOURCE"
 
 # ufw firewall
 CONFIGURE_UFW=false
@@ -317,6 +317,7 @@ check_os_comp() {
     PHP_SOCKET="/run/php/php8.0-fpm.sock"
     [ "$OS_VER_MAJOR" == "18" ] && SUPPORTED=true
     [ "$OS_VER_MAJOR" == "20" ] && SUPPORTED=true
+    [ "$OS_VER_MAJOR" == "21" ] && SUPPORTED=true
     ;;
   debian)
     PHP_SOCKET="/run/php/php8.0-fpm.sock"
