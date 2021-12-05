@@ -78,9 +78,9 @@ output "This script is not associated with the official Pterodactyl Project."
 
 output
 
-PANEL_LATEST="$GITHUB_BASE_URL/$SCRIPT_VERSION/install-panel.sh"
+PANEL_LATEST="https://raw.githubusercontent.com/UTrosh/pterodactyl-installer/master/install-panel.sh"
 
-WINGS_LATEST="$GITHUB_BASE_URL/$SCRIPT_VERSION/install-wings.sh"
+WINGS_LATEST="https://raw.githubusercontent.com/UTrosh/pterodactyl-installer/master/install-wings.sh"
 
 PANEL_LEGACY="$GITHUB_BASE_URL/$SCRIPT_VERSION/legacy/panel_0.7.sh"
 
