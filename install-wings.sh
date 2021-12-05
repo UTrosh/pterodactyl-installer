@@ -55,7 +55,7 @@ fi
 
 # download URLs
 WINGS_DL_BASE_URL="https://github.com/pterodactyl/wings/releases/latest/download/wings_linux_"
-GITHUB_BASE_URL="https://raw.githubusercontent.com/vilhelmprytz/pterodactyl-installer/$GITHUB_SOURCE"
+GITHUB_BASE_URL="https://raw.githubusercontent.com/UTrosh/pterodactyl-installer/$GITHUB_SOURCE"
 
 COLOR_RED='\033[0;31m'
 COLOR_NC='\033[0m'
@@ -237,6 +237,7 @@ check_os_comp() {
   ubuntu)
     [ "$OS_VER_MAJOR" == "18" ] && SUPPORTED=true
     [ "$OS_VER_MAJOR" == "20" ] && SUPPORTED=true
+    [ "$OS_VER_MAJOR" == "21" ] && SUPPORTED=true
     ;;
   debian)
     [ "$OS_VER_MAJOR" == "9" ] && SUPPORTED=true
