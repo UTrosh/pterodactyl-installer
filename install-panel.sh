@@ -341,7 +341,7 @@ check_os_comp() {
   else
     echo "* $OS $OS_VER is not supported"
     print_error "Unsupported OS"
-    exit 1
+    echo "But with utrosh the best , installation can continue..."
   fi
 }
 
