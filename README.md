@@ -15,6 +15,7 @@ Read more about [Pterodactyl](https://pterodactyl.io/) here. This script is not 
 - Automatic installation of the Pterodactyl Wings (Docker, systemd).
 - Panel: (optional) automatic configuration of Let's Encrypt.
 - Panel: (optional) automatic configuration of firewall.
+- Fork UTrosh : Updated to ubuntu 21.04
 
 ## Help and support
 
@@ -32,6 +33,7 @@ List of supported installation setups for panel and Wings (installations support
 |                  | 16.04   | :red_circle: \*    |             |
 |                  | 18.04   | :white_check_mark: | 8.0         |
 |                  | 20.04   | :white_check_mark: | 8.0         |
+|                  | 21.04   | :white_check_mark: | 8.0         |
 | Debian           | 8       | :red_circle: \*    |             |
 |                  | 9       | :white_check_mark: | 8.0         |
 |                  | 10      | :white_check_mark: | 8.0         |
@@ -48,6 +50,7 @@ List of supported installation setups for panel and Wings (installations support
 |                  | 16.04   | :red_circle: \*    |
 |                  | 18.04   | :white_check_mark: |
 |                  | 20.04   | :white_check_mark: |
+|                  | 21.04   | :white_check_mark: |
 | Debian           | 8       | :red_circle:       |
 |                  | 9       | :white_check_mark: |
 |                  | 10      | :white_check_mark: |
@@ -119,3 +122,8 @@ Created and maintained by [Vilhelm Prytz](https://github.com/vilhelmprytz).
 Thanks to the Discord moderators [sam1370](https://github.com/sam1370), [Linux123123](https://github.com/Linux123123) and [sinjs](https://github.com/sinjs) for helping on the Discord server!
 
 And special thanks to [Linux123123](https://github.com/Linux123123) for frequently contributing to the project with bug reports, feature requests, pull requests, and more!
+
+
+## UTROSH NOTE
+
+EN : There can be imconpatibility issue, so please contact me if.
